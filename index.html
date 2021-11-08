@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauzi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="hero">
+                    <h1 class="foto-heading">Hello, I am Muhammad Fauzi</h1>
+                <p class="text">Saya Seorang Freshgraduated Perbanas Institute Jurusan Teknik Informatika</p>
+                <button class="btn-primary" style="margin-right: 10px;">Hire Me</button>
+                <a href="https://drive.google.com/file/d/10Ri6EU9F5POOOfX4nvU6rZRzUIfxia8e/view?usp=sharing" target="blank"><button class="btn-secondary">Download CV</button></a>
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <img src="assets/img/logo-fau.png" alt="">
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <section class="services">
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Web Development</h3>
+                <p>Membuat FrontEnd Web dengan menggunakan HTML, CSS, dan Framework 
+                    (Bootstrap, Laravel)
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Data Admin</h3>
+                <p>Mengelola data menggunakan Ms. Excel dengan rumus-rumus tertentu
+                </p>
+            </div>
+        </section>
+        <section class="galery" id="project">
+            <h2>My Project</h2>
+            <img src="/assets/img/foto-1.png" alt="">
+            <img src="/assets/img/foto-2.png" alt="">
+            <img src="/assets/img/img-4.png" alt="">
+            <img src="/assets/img/img-3.png" alt="">
+        </section>
+        <div class="footer" id="contact">
+            <div class="img-footer">
+                <h2>Contact Me?</h2>
+                <hr class="hr-1">
+                <a href="tel:+6281318196799"><img src="assets/img/telephone.png"></a>0813-1819-6799</p>
+                <a href = "mailto:faufauzi28@gmail.com"><img src="assets/img/gmail.png" alt="">faufauzi28@gmail.com</a>
+                <a href="https://www.linkedin.com/in/muhammad-fauzi-523841214/" target="blank"><img src="assets/img/linkedin.png" alt="">Muhammad Fauzi</a>
+                <hr class="hr-2">
+                <p>© Muhammad Fauzi, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function () {
+    nav.classList.toggle('slide');
+    });
+    </script>
+</body>
+</html>
