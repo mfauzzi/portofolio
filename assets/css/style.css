@@ -200,6 +200,13 @@ button:active {
   text-align: center;
   margin-bottom: 20px;
 }
+.achievement {
+  text-align: center;
+}
+.achievement img {
+  width: 80vh;
+  margin: 20px;
+}
 .img-footer {
   text-align: center;
   border: solid;
