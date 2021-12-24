@@ -193,7 +193,20 @@ button:active {
 }
 .galery img {
   border: solid;
+  /* box-shadow: 10px 10px 10px black; */
+}
+.projects {
+  padding: 20px;
+  background-color: white;
   box-shadow: 10px 10px 10px black;
+}
+
+.btn-projects {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
 }
 .galery h2 {
   grid-column: 1 / -1;
@@ -204,7 +217,7 @@ button:active {
   text-align: center;
 }
 .achievement img {
-  width: 80vh;
+  width: 60vh;
   margin: 20px;
   box-shadow: 10px 10px 10px black;
 }
